@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <a href="{% url 'home' %}">Home</a> |  # do not captlize the home and about in quotes!
+    <a href="{% url 'about' %}">About</a>
+</head>
+{% block content %} {% endblock content %}
+</html>
